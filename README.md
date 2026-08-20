@@ -10,3 +10,7 @@ Projeto dedicado a criação de um portfolio/site para a loja de brinquedos Alva
 ## necessário
 1- criar uma pagina principal com todos os produtos disponiveis;
 2- criar uma pagina pra cada produto com um link para onde comprar (mercado Livre);
+
+## Problemas
+
+1- atualmente estou com problema em solucionar esse espaçamento entre o texto do produto e a imagem;
