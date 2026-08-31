@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Germania+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Milonga&family=Oswald:wght@200..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Germania+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Luckiest+Guy&family=Milonga&family=Oswald:wght@200..700&display=swap');
 :root{
-    --brancoNeve: #F1FAEE;
+    --brancoNeve: #f9fff7;
     --amareloSol: #FFCC00;
     --vermelho: #E63946;
     --vermelhoEscuro: #bd303b;
@@ -118,5 +118,24 @@ header a:hover{
 footer{
     background-color: var(--vermelho);
     color: var(--brancoNeve);
-    min-height: 200px;
+    min-height: 170px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr .5fr;
+}
+footer div ul{
+    list-style-type: none;
+}
+
+footer div ul a{
+    color: white;
+    text-decoration: none;
+}
+footer p{
+    grid-column: 1 / span 4;
+    text-align: center;
+}
+.alinhamento{
+    margin-top: 20px;
+    margin-left: 20px;
 }
