@@ -123,13 +123,19 @@ footer{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 2fr .5fr;
 }
-footer div ul{
+footer ul{
     list-style-type: none;
 }
 
-footer div ul a{
+footer a{
     color: white;
     text-decoration: none;
+}
+footer li:hover{
+    color: rgb(218, 217, 217);
+}
+footer a:hover{
+    color: rgb(218, 217, 217);
 }
 footer p{
     grid-column: 1 / span 4;
